@@ -8,7 +8,7 @@ namespace WebCrudNotas.Models
 {
     public class AlunoDAO
     {
-        //string conex = "database=BancoAluno; pwd=samuel; uid=sa;server=(local)"; nao utilizar esse
+        //string conex = "database=bdAlumno; pwd=castro; uid=sa;server=(local)"; nao utilizar esse
         string connectionString = @"Server=DESKTOP-JIFS59M\SQLEXPRESS;Database=BancoAluno;Trusted_Connection=True;";
         public List<Aluno> lisAluno()
         {
